@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>To Do List</title>
+</head>
+
+<div class="container my-5">
+    <h1>TODO APP</h1>
+    <input id="input" class="form-control form-control-lg" type="text" placeholder="ENTER TODO" aria-label=".form-control-lg example">
+    <div class="my-3">
+        <button class="btn btn-primary" onclick="addTodo()">ADD TODO</button>
+        <button class="btn btn-danger " onclick="delAll()">DELETE ALL</button>
+        <br> TODO ITEMS: <small id="items"> </small>
+    </div>
+</div>
+<div class="container">
+
+    <ul id="todoList">
+
+    </ul>
+
+</div>
+</body>
+<script src="./app.js"></script>
+
+</html>
